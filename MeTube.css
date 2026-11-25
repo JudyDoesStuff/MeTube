@@ -1,0 +1,56 @@
+
+#main{
+    margin-left: 8vmin;
+    margin-right: 8vmin;
+}
+#hero{
+    display: grid;
+    grid-template-columns: 100%;
+    justify-content: center;
+
+}
+#MainTitle{
+    font-size: 10vmin;
+    justify-self: center;
+    margin-top: 1px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#MeTube{
+    justify-self: center;
+}
+
+.Title{
+    display: grid;
+    grid-template-columns: 100%;
+    background-color: #AB3A33;
+    margin-bottom: 3vmin;
+    font-size: 8vmin;
+    border-radius: 25px;
+
+}
+.title{
+    display: grid;
+    justify-self: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+}
+
+.Channel{
+  overflow: auto;
+  white-space: nowrap;
+  padding-bottom: 10px;
+  margin-bottom: 5vmin;
+}
+.Video{
+    margin-left: 10vmin;
+    border-radius: 25px;
+    border: none;
+    height: 200px;
+    aspect-ratio: 16 / 9;
+    
+    
+}
+
+.Pfp{
+    border-radius: 25px;
+}
